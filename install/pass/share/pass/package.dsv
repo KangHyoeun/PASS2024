@@ -1,0 +1,5 @@
+source;share/pass/local_setup.bash
+source;share/pass/local_setup.dsv
+source;share/pass/local_setup.ps1
+source;share/pass/local_setup.sh
+source;share/pass/local_setup.zsh

@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/root/ros2_ws/build/pass': CMAKE_PREFIX_PATH=/opt/ros/foxy: /usr/bin/cmake /root/ros2_ws/src/pass -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/pass
+[0.029s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.173s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.348s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.349s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.484s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.506s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.595s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.595s]   Packages installing interfaces must include
+[0.595s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.595s]   package.xml
+[0.595s] Call Stack (most recent call first):
+[0.595s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.595s] 
+[0.595s] 
+[0.596s] -- Configuring incomplete, errors occurred!
+[0.597s] See also "/root/ros2_ws/build/pass/CMakeFiles/CMakeOutput.log".
+[0.597s] See also "/root/ros2_ws/build/pass/CMakeFiles/CMakeError.log".
+[0.601s] Invoked command in '/root/ros2_ws/build/pass' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy: /usr/bin/cmake /root/ros2_ws/src/pass -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/pass

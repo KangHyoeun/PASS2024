@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target control[0m
+[  2%] Built target pass__cpp
+[ 10%] Built target pass__rosidl_generator_c
+[ 16%] Built target navigation
+[ 21%] Built target guidance
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[ 37%] Built target pass__rosidl_typesupport_cpp
+[ 54%] Built target pass__rosidl_typesupport_introspection_cpp
+[ 54%] Built target pass__rosidl_typesupport_fastrtps_cpp
+[ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target pass__rosidl_typesupport_c[0m
+[35m[1mScanning dependencies of target pass__rosidl_typesupport_introspection_c[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/pass__rosidl_typesupport_c.dir/rosidl_typesupport_c/pass/msg/thruster_command__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/pass__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pass/msg/detail/thruster_command__type_support.c.o[0m
+[35m[1mScanning dependencies of target pass__rosidl_typesupport_fastrtps_c[0m
+[ 64%] [32m[1mLinking CXX shared library libpass__rosidl_typesupport_c.so[0m
+[ 67%] [32m[1mLinking C shared library libpass__rosidl_typesupport_introspection_c.so[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/pass__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pass/msg/detail/thruster_command__type_support_c.cpp.o[0m
+[ 70%] Built target pass__rosidl_typesupport_introspection_c
+[ 70%] Built target pass__rosidl_typesupport_c
+[ 72%] [32m[1mLinking CXX shared library libpass__rosidl_typesupport_fastrtps_c.so[0m
+[ 72%] Built target pass__rosidl_typesupport_fastrtps_c

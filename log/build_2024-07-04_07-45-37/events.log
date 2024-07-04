@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (pass) JobQueued: {'identifier': 'pass', 'dependencies': OrderedDict()}
+[0.000362] (pass) JobStarted: {'identifier': 'pass'}
+[0.011171] (pass) JobProgress: {'identifier': 'pass', 'progress': 'cmake'}
+[0.011980] (pass) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/pass', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/pass'], 'cwd': '/root/ros2_ws/build/pass', 'env': OrderedDict([('USER', 'hyo'), ('HOSTNAME', 'hyo'), ('GIT_ASKPASS', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/bin/helpers/browser.sh'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eefd9ada-5305-4761-8e70-764b9319e4c9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('LIBUSB_DEBUG', '1'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install://root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7d1796d4-9c82-479b-a80a-b9fe8dd35437.sock'), ('CONDA_ROOT', '/root/anaconda3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/bin/remote-cli:/root/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('CONTAINER_NAME', 'foxy-dev'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7400a846df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:'), ('CONDA_PYTHON_EXE', '/root/anaconda3/bin/python'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('UDEV', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/pass'), ('LC_ALL', 'C.UTF-8'), ('CONDA_EXE', '/root/anaconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:')]), 'shell': False}
+[0.025847] (pass) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.042125] (pass) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.042302] (pass) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.097546] (-) TimerEvent: {}
+[0.162737] (pass) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.168472] (pass) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.194395] (pass) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.196968] (pass) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.197670] (-) TimerEvent: {}
+[0.297945] (-) TimerEvent: {}
+[0.302186] (pass) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.340495] (pass) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.341481] (pass) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.398094] (-) TimerEvent: {}
+[0.450835] (pass) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.474319] (pass) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.498227] (-) TimerEvent: {}
+[0.583371] (pass) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.598365] (-) TimerEvent: {}
+[0.698678] (-) TimerEvent: {}
+[0.732436] (pass) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779812] (pass) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.797737] (pass) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.798041] (pass) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.798775] (-) TimerEvent: {}
+[0.815640] (pass) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.815827] (pass) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.815930] (pass) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.870767] (pass) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.898895] (-) TimerEvent: {}
+[0.949122] (pass) StdoutLine: {'line': b'-- Generating done\n'}
+[0.952648] (pass) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/pass\n'}
+[0.957385] (pass) CommandEnded: {'returncode': 0}
+[0.958143] (pass) JobProgress: {'identifier': 'pass', 'progress': 'build'}
+[0.959901] (pass) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/pass', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/pass', 'env': OrderedDict([('USER', 'hyo'), ('HOSTNAME', 'hyo'), ('GIT_ASKPASS', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/bin/helpers/browser.sh'), ('HOME', '/root'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-eefd9ada-5305-4761-8e70-764b9319e4c9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/node'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('REMOTE_CONTAINERS', 'true'), ('LIBUSB_DEBUG', '1'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install://root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-7d1796d4-9c82-479b-a80a-b9fe8dd35437.sock'), ('CONDA_ROOT', '/root/anaconda3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/611f9bfce64f25108829dd295f54a6894e87339d/bin/remote-cli:/root/anaconda3/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('QT_GRAPHICSSYSTEM', 'native'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('CONTAINER_NAME', 'foxy-dev'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7400a846df.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy:'), ('CONDA_PYTHON_EXE', '/root/anaconda3/bin/python'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('UDEV', '1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/pass'), ('LC_ALL', 'C.UTF-8'), ('CONDA_EXE', '/root/anaconda3/bin/conda'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:')]), 'shell': False}
+[0.993474] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation\x1b[0m\n'}
+[0.993692] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target control\x1b[0m\n'}
+[0.993756] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target guidance\x1b[0m\n'}
+[0.993808] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pass__cpp\x1b[0m\n'}
+[0.994409] (pass) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.999012] (-) TimerEvent: {}
+[1.003245] (pass) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.097655] (pass) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o\x1b[0m\n'}
+[1.099112] (-) TimerEvent: {}
+[1.099795] (pass) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/navigation.dir/src/navigation.cpp.o\x1b[0m\n'}
+[1.100437] (pass) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/guidance.dir/src/guidance.cpp.o\x1b[0m\n'}
+[1.191388] (pass) StdoutLine: {'line': b'[ 13%] Built target pass__cpp\n'}
+[1.199260] (-) TimerEvent: {}
+[1.204035] (pass) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.205546] (pass) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.206578] (pass) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.213627] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pass__rosidl_generator_c\x1b[0m\n'}
+[1.229523] (pass) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/pass__rosidl_generator_c.dir/rosidl_generator_c/pass/msg/detail/thruster_command__functions.c.o\x1b[0m\n'}
+[1.299435] (-) TimerEvent: {}
+[1.341531] (pass) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/pass/src/control.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kpass/msg/ThrusterCommand.hpp: No such file or directory\n'}
+[1.341789] (pass) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"pass/msg/ThrusterCommand.hpp"\x1b[m\x1b[K  // custom message include\n'}
+[1.341885] (pass) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.341973] (pass) StderrLine: {'line': b'compilation terminated.\n'}
+[1.344519] (pass) StderrLine: {'line': b'make[2]: *** [CMakeFiles/control.dir/build.make:63: CMakeFiles/control.dir/src/control.cpp.o] Error 1\n'}
+[1.344831] (pass) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:181: CMakeFiles/control.dir/all] Error 2\n'}
+[1.344909] (pass) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.347675] (pass) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libpass__rosidl_generator_c.so\x1b[0m\n'}
+[1.399546] (-) TimerEvent: {}
+[1.401621] (pass) StdoutLine: {'line': b'[ 27%] Built target pass__rosidl_generator_c\n'}
+[1.407081] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pass__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.407944] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pass__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.425089] (pass) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/pass__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pass/msg/thruster_command__type_support.cpp.o\x1b[0m\n'}
+[1.428594] (pass) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/pass__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pass/msg/detail/dds_fastrtps/thruster_command__type_support.cpp.o\x1b[0m\n'}
+[1.448643] (pass) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pass__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.465563] (pass) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pass__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pass/msg/detail/thruster_command__type_support.cpp.o\x1b[0m\n'}
+[1.499680] (-) TimerEvent: {}
+[1.600035] (-) TimerEvent: {}
+[1.700392] (-) TimerEvent: {}
+[1.737056] (pass) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libpass__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.753098] (pass) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libpass__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.776327] (pass) StdoutLine: {'line': b'[ 40%] Built target pass__rosidl_typesupport_cpp\n'}
+[1.791257] (pass) StdoutLine: {'line': b'[ 40%] Built target pass__rosidl_typesupport_introspection_cpp\n'}
+[1.800527] (-) TimerEvent: {}
+[1.809458] (pass) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libpass__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.893848] (pass) StdoutLine: {'line': b'[ 43%] Built target pass__rosidl_typesupport_fastrtps_cpp\n'}
+[1.900652] (-) TimerEvent: {}
+[2.001005] (-) TimerEvent: {}
+[2.101427] (-) TimerEvent: {}
+[2.201847] (-) TimerEvent: {}
+[2.302242] (-) TimerEvent: {}
+[2.402713] (-) TimerEvent: {}
+[2.503200] (-) TimerEvent: {}
+[2.603621] (-) TimerEvent: {}
+[2.704069] (-) TimerEvent: {}
+[2.804532] (-) TimerEvent: {}
+[2.904958] (-) TimerEvent: {}
+[3.005349] (-) TimerEvent: {}
+[3.105745] (-) TimerEvent: {}
+[3.206117] (-) TimerEvent: {}
+[3.306519] (-) TimerEvent: {}
+[3.406878] (-) TimerEvent: {}
+[3.507255] (-) TimerEvent: {}
+[3.607581] (-) TimerEvent: {}
+[3.707944] (-) TimerEvent: {}
+[3.808338] (-) TimerEvent: {}
+[3.908708] (-) TimerEvent: {}
+[4.009100] (-) TimerEvent: {}
+[4.068152] (pass) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable guidance\x1b[0m\n'}
+[4.109254] (-) TimerEvent: {}
+[4.208444] (pass) StdoutLine: {'line': b'[ 45%] Built target guidance\n'}
+[4.209343] (-) TimerEvent: {}
+[4.309642] (-) TimerEvent: {}
+[4.409995] (-) TimerEvent: {}
+[4.510350] (-) TimerEvent: {}
+[4.610681] (-) TimerEvent: {}
+[4.711055] (-) TimerEvent: {}
+[4.811404] (-) TimerEvent: {}
+[4.911798] (-) TimerEvent: {}
+[5.012169] (-) TimerEvent: {}
+[5.112524] (-) TimerEvent: {}
+[5.212886] (-) TimerEvent: {}
+[5.313288] (-) TimerEvent: {}
+[5.369304] (pass) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX executable navigation\x1b[0m\n'}
+[5.413463] (-) TimerEvent: {}
+[5.513831] (-) TimerEvent: {}
+[5.531892] (pass) StdoutLine: {'line': b'[ 48%] Built target navigation\n'}
+[5.533465] (pass) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.535182] (pass) CommandEnded: {'returncode': 2}
+[5.592976] (pass) JobEnded: {'identifier': 'pass', 'rc': 2}
+[5.603782] (-) EventReactorShutdown: {}

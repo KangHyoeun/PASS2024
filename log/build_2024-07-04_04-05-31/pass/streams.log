@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/root/ros2_ws/build/pass': CMAKE_PREFIX_PATH=/opt/ros/foxy: /usr/bin/cmake /root/ros2_ws/src/pass -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/pass
+[0.073s] -- The C compiler identification is GNU 9.4.0
+[0.178s] -- The CXX compiler identification is GNU 9.4.0
+[0.182s] -- Check for working C compiler: /usr/bin/cc
+[0.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.238s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.611s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.743s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.855s] -- Looking for pthread.h
+[0.911s] -- Looking for pthread.h - found
+[0.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.997s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.997s] -- Looking for pthread_create in pthreads
+[1.043s] -- Looking for pthread_create in pthreads - not found
+[1.043s] -- Looking for pthread_create in pthread
+[1.096s] -- Looking for pthread_create in pthread - found
+[1.097s] -- Found Threads: TRUE  
+[1.219s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.246s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.271s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.358s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.358s]   Packages installing interfaces must include
+[1.358s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.358s]   package.xml
+[1.358s] Call Stack (most recent call first):
+[1.358s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.358s] 
+[1.358s] 
+[1.359s] -- Configuring incomplete, errors occurred!
+[1.359s] See also "/root/ros2_ws/build/pass/CMakeFiles/CMakeOutput.log".
+[1.359s] See also "/root/ros2_ws/build/pass/CMakeFiles/CMakeError.log".
+[1.365s] Invoked command in '/root/ros2_ws/build/pass' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy: /usr/bin/cmake /root/ros2_ws/src/pass -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/pass

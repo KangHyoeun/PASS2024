@@ -1,0 +1,5 @@
+control_node:
+  ros__parameters:
+    kp: 1.0
+    kd: 0.1
+    lpf_tau: 0.5  # 필터 타임 상수

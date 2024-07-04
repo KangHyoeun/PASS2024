@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target control[0m
+[  2%] Built target pass__cpp
+[ 10%] Built target pass__rosidl_generator_c
+[ 16%] Built target navigation
+[ 21%] Built target guidance
+[ 24%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[ 37%] Built target pass__rosidl_typesupport_cpp
+[ 40%] Built target pass__rosidl_typesupport_c
+[ 48%] Built target pass__rosidl_typesupport_introspection_cpp
+[ 56%] Built target pass__rosidl_typesupport_introspection_c
+[ 64%] Built target pass__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target pass__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target pass[0m
+[ 72%] Built target pass
+[35m[1mScanning dependencies of target pass__py[0m
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] Built target pass__py
